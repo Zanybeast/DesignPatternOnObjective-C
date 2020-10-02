@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C314E7E0252470A500B91399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E7DF252470A500B91399 /* AppDelegate.m */; };
+		C314E7E3252470A500B91399 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E7E2252470A500B91399 /* SceneDelegate.m */; };
+		C314E7E6252470A500B91399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E7E5252470A500B91399 /* ViewController.m */; };
+		C314E7E9252470A500B91399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C314E7E7252470A500B91399 /* Main.storyboard */; };
+		C314E7EB252470A600B91399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C314E7EA252470A600B91399 /* Assets.xcassets */; };
+		C314E7EE252470A600B91399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C314E7EC252470A600B91399 /* LaunchScreen.storyboard */; };
+		C314E7F1252470A600B91399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E7F0252470A600B91399 /* main.m */; };
+		C314E7FB252470A600B91399 /* ZZTouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E7FA252470A600B91399 /* ZZTouchPainterTests.m */; };
+		C314E806252470A600B91399 /* ZZTouchPainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E805252470A600B91399 /* ZZTouchPainterUITests.m */; };
+		C314E81B252471D700B91399 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E819252471D700B91399 /* CanvasViewController.m */; };
+		C314E81C252471D700B91399 /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314E81A252471D700B91399 /* CanvasViewController.xib */; };
+		C314E8202524721F00B91399 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E81E2524721F00B91399 /* ThumbnailViewController.m */; };
+		C314E8212524721F00B91399 /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314E81F2524721F00B91399 /* ThumbnailViewController.xib */; };
+		C314E8252524722E00B91399 /* PalleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8232524722E00B91399 /* PalleteViewController.m */; };
+		C314E8262524722E00B91399 /* PalleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314E8242524722E00B91399 /* PalleteViewController.xib */; };
+		C314E82F252472E400B91399 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E82E252472E400B91399 /* Scribble.m */; };
+		C314E832252472F600B91399 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E831252472F600B91399 /* ScribbleMemento.m */; };
+		C314E837252473F100B91399 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E836252473F100B91399 /* CoordinatingController.m */; };
+		C314E83B252475E800B91399 /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E83A252475E800B91399 /* MarkEnumerator.m */; };
+		C314E8432524770300B91399 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8422524770300B91399 /* NSMutableArray+Stack.m */; };
+		C314E84725247B5800B91399 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E84625247B5800B91399 /* Stroke.m */; };
+		C314E84A25248F2300B91399 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E84925248F2300B91399 /* ScribbleManager.m */; };
+		C314E84E252498F000B91399 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E84D252498F000B91399 /* CanvasView.m */; };
+		C314E8512524DC0200B91399 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8502524DC0200B91399 /* Vertex.m */; };
+		C314E8542524E91200B91399 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8532524E91200B91399 /* Dot.m */; };
+		C314E8572524EA8E00B91399 /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8562524EA8E00B91399 /* MarkRenderer.m */; };
+		C314E85B2524EB6600B91399 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E85A2524EB6600B91399 /* CanvasViewGenerator.m */; };
+		C314E8602524EC0F00B91399 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E85F2524EC0F00B91399 /* Command.m */; };
+		C314E8632524EC7F00B91399 /* CommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8622524EC7F00B91399 /* CommandBarButton.m */; };
+		C314E8672524F80500B91399 /* ScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8662524F80500B91399 /* ScribbleThumbnailCell.m */; };
+		C314E86B2525027200B91399 /* ScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E86A2525027200B91399 /* ScribbleThumbnailView.m */; };
+		C314E86F252504F200B91399 /* ScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E86E252504F200B91399 /* ScribbleThumbnailViewImageProxy.m */; };
+		C314E8732525A5A000B91399 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8722525A5A000B91399 /* CommandSlider.m */; };
+		C314E8762525A67F00B91399 /* SetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8752525A67F00B91399 /* SetStrokeSizeCommand.m */; };
+		C314E8792525A69E00B91399 /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8782525A69E00B91399 /* SetStrokeColorCommand.m */; };
+		C314E87C2525B5B200B91399 /* OpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E87B2525B5B200B91399 /* OpenScribbleCommand.m */; };
+		C314E87F2525B5C300B91399 /* DeleteScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E87E2525B5C300B91399 /* DeleteScribbleCommand.m */; };
+		C314E8822525B5D200B91399 /* SaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8812525B5D200B91399 /* SaveScribbleCommand.m */; };
+		C314E8862525B6C900B91399 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C314E8852525B6C900B91399 /* UIView+UIImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C314E7F7252470A600B91399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C314E7D3252470A500B91399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C314E7DA252470A500B91399;
+			remoteInfo = ZZTouchPainter;
+		};
+		C314E802252470A600B91399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C314E7D3252470A500B91399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C314E7DA252470A500B91399;
+			remoteInfo = ZZTouchPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C314E7DB252470A500B91399 /* ZZTouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C314E7DE252470A500B91399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C314E7DF252470A500B91399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C314E7E1252470A500B91399 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C314E7E2252470A500B91399 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C314E7E4252470A500B91399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C314E7E5252470A500B91399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C314E7E8252470A500B91399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C314E7EA252470A600B91399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C314E7ED252470A600B91399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C314E7EF252470A600B91399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C314E7F0252470A600B91399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C314E7F6252470A600B91399 /* ZZTouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C314E7FA252470A600B91399 /* ZZTouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTouchPainterTests.m; sourceTree = "<group>"; };
+		C314E7FC252470A600B91399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C314E801252470A600B91399 /* ZZTouchPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTouchPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C314E805252470A600B91399 /* ZZTouchPainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTouchPainterUITests.m; sourceTree = "<group>"; };
+		C314E807252470A600B91399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C314E818252471D700B91399 /* CanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		C314E819252471D700B91399 /* CanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		C314E81A252471D700B91399 /* CanvasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
+		C314E81D2524721F00B91399 /* ThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
+		C314E81E2524721F00B91399 /* ThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
+		C314E81F2524721F00B91399 /* ThumbnailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThumbnailViewController.xib; sourceTree = "<group>"; };
+		C314E8222524722E00B91399 /* PalleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalleteViewController.h; sourceTree = "<group>"; };
+		C314E8232524722E00B91399 /* PalleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalleteViewController.m; sourceTree = "<group>"; };
+		C314E8242524722E00B91399 /* PalleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PalleteViewController.xib; sourceTree = "<group>"; };
+		C314E82B2524729600B91399 /* MarkVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
+		C314E82C252472C100B91399 /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		C314E82D252472E400B91399 /* Scribble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
+		C314E82E252472E400B91399 /* Scribble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
+		C314E830252472F600B91399 /* ScribbleMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
+		C314E831252472F600B91399 /* ScribbleMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
+		C314E8332524734E00B91399 /* ScribbleMemento+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScribbleMemento+Friend.h"; sourceTree = "<group>"; };
+		C314E835252473F100B91399 /* CoordinatingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
+		C314E836252473F100B91399 /* CoordinatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
+		C314E839252475E800B91399 /* MarkEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
+		C314E83A252475E800B91399 /* MarkEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
+		C314E83C2524760A00B91399 /* MarkEnumerator+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarkEnumerator+Internal.h"; sourceTree = "<group>"; };
+		C314E8412524770300B91399 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		C314E8422524770300B91399 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		C314E84525247B5800B91399 /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		C314E84625247B5800B91399 /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		C314E84825248F2300B91399 /* ScribbleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
+		C314E84925248F2300B91399 /* ScribbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
+		C314E84C252498F000B91399 /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		C314E84D252498F000B91399 /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		C314E84F2524DC0200B91399 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		C314E8502524DC0200B91399 /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		C314E8522524E91200B91399 /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		C314E8532524E91200B91399 /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		C314E8552524EA8E00B91399 /* MarkRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkRenderer.h; sourceTree = "<group>"; };
+		C314E8562524EA8E00B91399 /* MarkRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkRenderer.m; sourceTree = "<group>"; };
+		C314E8592524EB6600B91399 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		C314E85A2524EB6600B91399 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		C314E85E2524EC0F00B91399 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		C314E85F2524EC0F00B91399 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		C314E8612524EC7F00B91399 /* CommandBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandBarButton.h; sourceTree = "<group>"; };
+		C314E8622524EC7F00B91399 /* CommandBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandBarButton.m; sourceTree = "<group>"; };
+		C314E8652524F80500B91399 /* ScribbleThumbnailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleThumbnailCell.h; sourceTree = "<group>"; };
+		C314E8662524F80500B91399 /* ScribbleThumbnailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleThumbnailCell.m; sourceTree = "<group>"; };
+		C314E8692525027200B91399 /* ScribbleThumbnailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleThumbnailView.h; sourceTree = "<group>"; };
+		C314E86A2525027200B91399 /* ScribbleThumbnailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleThumbnailView.m; sourceTree = "<group>"; };
+		C314E86C252502AE00B91399 /* ScribbleSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleSource.h; sourceTree = "<group>"; };
+		C314E86D252504F200B91399 /* ScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
+		C314E86E252504F200B91399 /* ScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
+		C314E8712525A59F00B91399 /* CommandSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
+		C314E8722525A5A000B91399 /* CommandSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
+		C314E8742525A67F00B91399 /* SetStrokeSizeCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetStrokeSizeCommand.h; sourceTree = "<group>"; };
+		C314E8752525A67F00B91399 /* SetStrokeSizeCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetStrokeSizeCommand.m; sourceTree = "<group>"; };
+		C314E8772525A69E00B91399 /* SetStrokeColorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetStrokeColorCommand.h; sourceTree = "<group>"; };
+		C314E8782525A69E00B91399 /* SetStrokeColorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetStrokeColorCommand.m; sourceTree = "<group>"; };
+		C314E87A2525B5B200B91399 /* OpenScribbleCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenScribbleCommand.h; sourceTree = "<group>"; };
+		C314E87B2525B5B200B91399 /* OpenScribbleCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenScribbleCommand.m; sourceTree = "<group>"; };
+		C314E87D2525B5C300B91399 /* DeleteScribbleCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteScribbleCommand.h; sourceTree = "<group>"; };
+		C314E87E2525B5C300B91399 /* DeleteScribbleCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteScribbleCommand.m; sourceTree = "<group>"; };
+		C314E8802525B5D200B91399 /* SaveScribbleCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveScribbleCommand.h; sourceTree = "<group>"; };
+		C314E8812525B5D200B91399 /* SaveScribbleCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveScribbleCommand.m; sourceTree = "<group>"; };
+		C314E8842525B6C900B91399 /* UIView+UIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		C314E8852525B6C900B91399 /* UIView+UIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C314E7D8252470A500B91399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314E7F3252470A600B91399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314E7FE252470A600B91399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C314E7D2252470A500B91399 = {
+			isa = PBXGroup;
+			children = (
+				C314E7DD252470A500B91399 /* ZZTouchPainter */,
+				C314E7F9252470A600B91399 /* ZZTouchPainterTests */,
+				C314E804252470A600B91399 /* ZZTouchPainterUITests */,
+				C314E7DC252470A500B91399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C314E7DC252470A500B91399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C314E7DB252470A500B91399 /* ZZTouchPainter.app */,
+				C314E7F6252470A600B91399 /* ZZTouchPainterTests.xctest */,
+				C314E801252470A600B91399 /* ZZTouchPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C314E7DD252470A500B91399 /* ZZTouchPainter */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8642524F62500B91399 /* Proxy */,
+				C314E85D2524EC0000B91399 /* Command */,
+				C314E8582524EB4800B91399 /* Factory Method */,
+				C314E83D2524769D00B91399 /* Utilities */,
+				C314E838252475C800B91399 /* Iterator */,
+				C314E834252473BC00B91399 /* Mediator */,
+				C314E8282524725100B91399 /* Composite Prototype Iterator */,
+				C314E8272524724C00B91399 /* Visitor */,
+				C314E8142524717A00B91399 /* Memento Observer */,
+				C314E84B252498CC00B91399 /* Views */,
+				C314E813252470AE00B91399 /* ViewControllers */,
+				C314E7EA252470A600B91399 /* Assets.xcassets */,
+				C314E7EC252470A600B91399 /* LaunchScreen.storyboard */,
+				C314E7EF252470A600B91399 /* Info.plist */,
+				C314E7F0252470A600B91399 /* main.m */,
+			);
+			path = ZZTouchPainter;
+			sourceTree = "<group>";
+		};
+		C314E7F9252470A600B91399 /* ZZTouchPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C314E7FA252470A600B91399 /* ZZTouchPainterTests.m */,
+				C314E7FC252470A600B91399 /* Info.plist */,
+			);
+			path = ZZTouchPainterTests;
+			sourceTree = "<group>";
+		};
+		C314E804252470A600B91399 /* ZZTouchPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C314E805252470A600B91399 /* ZZTouchPainterUITests.m */,
+				C314E807252470A600B91399 /* Info.plist */,
+			);
+			path = ZZTouchPainterUITests;
+			sourceTree = "<group>";
+		};
+		C314E813252470AE00B91399 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C314E817252471B900B91399 /* PalleteViewController */,
+				C314E816252471AC00B91399 /* ThumbnailViewController */,
+				C314E8152524719500B91399 /* CanvasViewController */,
+				C314E7DE252470A500B91399 /* AppDelegate.h */,
+				C314E7DF252470A500B91399 /* AppDelegate.m */,
+				C314E7E1252470A500B91399 /* SceneDelegate.h */,
+				C314E7E2252470A500B91399 /* SceneDelegate.m */,
+				C314E7E4252470A500B91399 /* ViewController.h */,
+				C314E7E5252470A500B91399 /* ViewController.m */,
+				C314E7E7252470A500B91399 /* Main.storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C314E8142524717A00B91399 /* Memento Observer */ = {
+			isa = PBXGroup;
+			children = (
+				C314E82D252472E400B91399 /* Scribble.h */,
+				C314E82E252472E400B91399 /* Scribble.m */,
+				C314E830252472F600B91399 /* ScribbleMemento.h */,
+				C314E831252472F600B91399 /* ScribbleMemento.m */,
+				C314E8332524734E00B91399 /* ScribbleMemento+Friend.h */,
+				C314E84825248F2300B91399 /* ScribbleManager.h */,
+				C314E84925248F2300B91399 /* ScribbleManager.m */,
+			);
+			path = "Memento Observer";
+			sourceTree = "<group>";
+		};
+		C314E8152524719500B91399 /* CanvasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C314E818252471D700B91399 /* CanvasViewController.h */,
+				C314E819252471D700B91399 /* CanvasViewController.m */,
+				C314E81A252471D700B91399 /* CanvasViewController.xib */,
+			);
+			path = CanvasViewController;
+			sourceTree = "<group>";
+		};
+		C314E816252471AC00B91399 /* ThumbnailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8682524F80C00B91399 /* Scribble Thumbnail Cell */,
+				C314E81D2524721F00B91399 /* ThumbnailViewController.h */,
+				C314E81E2524721F00B91399 /* ThumbnailViewController.m */,
+				C314E81F2524721F00B91399 /* ThumbnailViewController.xib */,
+			);
+			path = ThumbnailViewController;
+			sourceTree = "<group>";
+		};
+		C314E817252471B900B91399 /* PalleteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8222524722E00B91399 /* PalleteViewController.h */,
+				C314E8232524722E00B91399 /* PalleteViewController.m */,
+				C314E8242524722E00B91399 /* PalleteViewController.xib */,
+			);
+			path = PalleteViewController;
+			sourceTree = "<group>";
+		};
+		C314E8272524724C00B91399 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				C314E82B2524729600B91399 /* MarkVisitor.h */,
+				C314E8552524EA8E00B91399 /* MarkRenderer.h */,
+				C314E8562524EA8E00B91399 /* MarkRenderer.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		C314E8282524725100B91399 /* Composite Prototype Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				C314E82C252472C100B91399 /* Mark.h */,
+				C314E8522524E91200B91399 /* Dot.h */,
+				C314E8532524E91200B91399 /* Dot.m */,
+				C314E84525247B5800B91399 /* Stroke.h */,
+				C314E84625247B5800B91399 /* Stroke.m */,
+				C314E84F2524DC0200B91399 /* Vertex.h */,
+				C314E8502524DC0200B91399 /* Vertex.m */,
+			);
+			path = "Composite Prototype Iterator";
+			sourceTree = "<group>";
+		};
+		C314E834252473BC00B91399 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				C314E835252473F100B91399 /* CoordinatingController.h */,
+				C314E836252473F100B91399 /* CoordinatingController.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		C314E838252475C800B91399 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				C314E839252475E800B91399 /* MarkEnumerator.h */,
+				C314E83A252475E800B91399 /* MarkEnumerator.m */,
+				C314E83C2524760A00B91399 /* MarkEnumerator+Internal.h */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		C314E83D2524769D00B91399 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8832525B68900B91399 /* View2Image */,
+				C314E8702525A57800B91399 /* Command Slider */,
+				C314E85C2524EBF200B91399 /* Command Button */,
+				C314E8442524770F00B91399 /* CustomStack */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C314E8442524770F00B91399 /* CustomStack */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8412524770300B91399 /* NSMutableArray+Stack.h */,
+				C314E8422524770300B91399 /* NSMutableArray+Stack.m */,
+			);
+			path = CustomStack;
+			sourceTree = "<group>";
+		};
+		C314E84B252498CC00B91399 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C314E84C252498F000B91399 /* CanvasView.h */,
+				C314E84D252498F000B91399 /* CanvasView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C314E8582524EB4800B91399 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8592524EB6600B91399 /* CanvasViewGenerator.h */,
+				C314E85A2524EB6600B91399 /* CanvasViewGenerator.m */,
+			);
+			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		C314E85C2524EBF200B91399 /* Command Button */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8612524EC7F00B91399 /* CommandBarButton.h */,
+				C314E8622524EC7F00B91399 /* CommandBarButton.m */,
+			);
+			path = "Command Button";
+			sourceTree = "<group>";
+		};
+		C314E85D2524EC0000B91399 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				C314E85E2524EC0F00B91399 /* Command.h */,
+				C314E85F2524EC0F00B91399 /* Command.m */,
+				C314E8742525A67F00B91399 /* SetStrokeSizeCommand.h */,
+				C314E8752525A67F00B91399 /* SetStrokeSizeCommand.m */,
+				C314E8772525A69E00B91399 /* SetStrokeColorCommand.h */,
+				C314E8782525A69E00B91399 /* SetStrokeColorCommand.m */,
+				C314E87A2525B5B200B91399 /* OpenScribbleCommand.h */,
+				C314E87B2525B5B200B91399 /* OpenScribbleCommand.m */,
+				C314E87D2525B5C300B91399 /* DeleteScribbleCommand.h */,
+				C314E87E2525B5C300B91399 /* DeleteScribbleCommand.m */,
+				C314E8802525B5D200B91399 /* SaveScribbleCommand.h */,
+				C314E8812525B5D200B91399 /* SaveScribbleCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		C314E8642524F62500B91399 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8692525027200B91399 /* ScribbleThumbnailView.h */,
+				C314E86A2525027200B91399 /* ScribbleThumbnailView.m */,
+				C314E86C252502AE00B91399 /* ScribbleSource.h */,
+				C314E86D252504F200B91399 /* ScribbleThumbnailViewImageProxy.h */,
+				C314E86E252504F200B91399 /* ScribbleThumbnailViewImageProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		C314E8682524F80C00B91399 /* Scribble Thumbnail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8652524F80500B91399 /* ScribbleThumbnailCell.h */,
+				C314E8662524F80500B91399 /* ScribbleThumbnailCell.m */,
+			);
+			path = "Scribble Thumbnail Cell";
+			sourceTree = "<group>";
+		};
+		C314E8702525A57800B91399 /* Command Slider */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8712525A59F00B91399 /* CommandSlider.h */,
+				C314E8722525A5A000B91399 /* CommandSlider.m */,
+			);
+			path = "Command Slider";
+			sourceTree = "<group>";
+		};
+		C314E8832525B68900B91399 /* View2Image */ = {
+			isa = PBXGroup;
+			children = (
+				C314E8842525B6C900B91399 /* UIView+UIImage.h */,
+				C314E8852525B6C900B91399 /* UIView+UIImage.m */,
+			);
+			path = View2Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C314E7DA252470A500B91399 /* ZZTouchPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C314E80A252470A600B91399 /* Build configuration list for PBXNativeTarget "ZZTouchPainter" */;
+			buildPhases = (
+				C314E7D7252470A500B91399 /* Sources */,
+				C314E7D8252470A500B91399 /* Frameworks */,
+				C314E7D9252470A500B91399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTouchPainter;
+			productName = ZZTouchPainter;
+			productReference = C314E7DB252470A500B91399 /* ZZTouchPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C314E7F5252470A600B91399 /* ZZTouchPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C314E80D252470A600B91399 /* Build configuration list for PBXNativeTarget "ZZTouchPainterTests" */;
+			buildPhases = (
+				C314E7F2252470A600B91399 /* Sources */,
+				C314E7F3252470A600B91399 /* Frameworks */,
+				C314E7F4252470A600B91399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C314E7F8252470A600B91399 /* PBXTargetDependency */,
+			);
+			name = ZZTouchPainterTests;
+			productName = ZZTouchPainterTests;
+			productReference = C314E7F6252470A600B91399 /* ZZTouchPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C314E800252470A600B91399 /* ZZTouchPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C314E810252470A600B91399 /* Build configuration list for PBXNativeTarget "ZZTouchPainterUITests" */;
+			buildPhases = (
+				C314E7FD252470A600B91399 /* Sources */,
+				C314E7FE252470A600B91399 /* Frameworks */,
+				C314E7FF252470A600B91399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C314E803252470A600B91399 /* PBXTargetDependency */,
+			);
+			name = ZZTouchPainterUITests;
+			productName = ZZTouchPainterUITests;
+			productReference = C314E801252470A600B91399 /* ZZTouchPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C314E7D3252470A500B91399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = carl;
+				TargetAttributes = {
+					C314E7DA252470A500B91399 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					C314E7F5252470A600B91399 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C314E7DA252470A500B91399;
+					};
+					C314E800252470A600B91399 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C314E7DA252470A500B91399;
+					};
+				};
+			};
+			buildConfigurationList = C314E7D6252470A500B91399 /* Build configuration list for PBXProject "ZZTouchPainter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C314E7D2252470A500B91399;
+			productRefGroup = C314E7DC252470A500B91399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C314E7DA252470A500B91399 /* ZZTouchPainter */,
+				C314E7F5252470A600B91399 /* ZZTouchPainterTests */,
+				C314E800252470A600B91399 /* ZZTouchPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C314E7D9252470A500B91399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314E81C252471D700B91399 /* CanvasViewController.xib in Resources */,
+				C314E7EE252470A600B91399 /* LaunchScreen.storyboard in Resources */,
+				C314E8212524721F00B91399 /* ThumbnailViewController.xib in Resources */,
+				C314E7EB252470A600B91399 /* Assets.xcassets in Resources */,
+				C314E8262524722E00B91399 /* PalleteViewController.xib in Resources */,
+				C314E7E9252470A500B91399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314E7F4252470A600B91399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314E7FF252470A600B91399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C314E7D7252470A500B91399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314E8432524770300B91399 /* NSMutableArray+Stack.m in Sources */,
+				C314E8512524DC0200B91399 /* Vertex.m in Sources */,
+				C314E83B252475E800B91399 /* MarkEnumerator.m in Sources */,
+				C314E8572524EA8E00B91399 /* MarkRenderer.m in Sources */,
+				C314E7E6252470A500B91399 /* ViewController.m in Sources */,
+				C314E7E0252470A500B91399 /* AppDelegate.m in Sources */,
+				C314E832252472F600B91399 /* ScribbleMemento.m in Sources */,
+				C314E86B2525027200B91399 /* ScribbleThumbnailView.m in Sources */,
+				C314E84A25248F2300B91399 /* ScribbleManager.m in Sources */,
+				C314E8862525B6C900B91399 /* UIView+UIImage.m in Sources */,
+				C314E8252524722E00B91399 /* PalleteViewController.m in Sources */,
+				C314E86F252504F200B91399 /* ScribbleThumbnailViewImageProxy.m in Sources */,
+				C314E87F2525B5C300B91399 /* DeleteScribbleCommand.m in Sources */,
+				C314E82F252472E400B91399 /* Scribble.m in Sources */,
+				C314E81B252471D700B91399 /* CanvasViewController.m in Sources */,
+				C314E8822525B5D200B91399 /* SaveScribbleCommand.m in Sources */,
+				C314E837252473F100B91399 /* CoordinatingController.m in Sources */,
+				C314E84725247B5800B91399 /* Stroke.m in Sources */,
+				C314E8202524721F00B91399 /* ThumbnailViewController.m in Sources */,
+				C314E8672524F80500B91399 /* ScribbleThumbnailCell.m in Sources */,
+				C314E8762525A67F00B91399 /* SetStrokeSizeCommand.m in Sources */,
+				C314E7F1252470A600B91399 /* main.m in Sources */,
+				C314E8732525A5A000B91399 /* CommandSlider.m in Sources */,
+				C314E8542524E91200B91399 /* Dot.m in Sources */,
+				C314E85B2524EB6600B91399 /* CanvasViewGenerator.m in Sources */,
+				C314E7E3252470A500B91399 /* SceneDelegate.m in Sources */,
+				C314E87C2525B5B200B91399 /* OpenScribbleCommand.m in Sources */,
+				C314E84E252498F000B91399 /* CanvasView.m in Sources */,
+				C314E8792525A69E00B91399 /* SetStrokeColorCommand.m in Sources */,
+				C314E8632524EC7F00B91399 /* CommandBarButton.m in Sources */,
+				C314E8602524EC0F00B91399 /* Command.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314E7F2252470A600B91399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314E7FB252470A600B91399 /* ZZTouchPainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314E7FD252470A600B91399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314E806252470A600B91399 /* ZZTouchPainterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C314E7F8252470A600B91399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C314E7DA252470A500B91399 /* ZZTouchPainter */;
+			targetProxy = C314E7F7252470A600B91399 /* PBXContainerItemProxy */;
+		};
+		C314E803252470A600B91399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C314E7DA252470A500B91399 /* ZZTouchPainter */;
+			targetProxy = C314E802252470A600B91399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C314E7E7252470A500B91399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314E7E8252470A500B91399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C314E7EC252470A600B91399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314E7ED252470A600B91399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C314E808252470A600B91399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C314E809252470A600B91399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C314E80B252470A600B91399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84TMMB74J;
+				INFOPLIST_FILE = ZZTouchPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlzeng.ZZTouchPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C314E80C252470A600B91399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84TMMB74J;
+				INFOPLIST_FILE = ZZTouchPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlzeng.ZZTouchPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C314E80E252470A600B91399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84TMMB74J;
+				INFOPLIST_FILE = ZZTouchPainterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlzeng.ZZTouchPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTouchPainter.app/ZZTouchPainter";
+			};
+			name = Debug;
+		};
+		C314E80F252470A600B91399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84TMMB74J;
+				INFOPLIST_FILE = ZZTouchPainterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlzeng.ZZTouchPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTouchPainter.app/ZZTouchPainter";
+			};
+			name = Release;
+		};
+		C314E811252470A600B91399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84TMMB74J;
+				INFOPLIST_FILE = ZZTouchPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlzeng.ZZTouchPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTouchPainter;
+			};
+			name = Debug;
+		};
+		C314E812252470A600B91399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84TMMB74J;
+				INFOPLIST_FILE = ZZTouchPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlzeng.ZZTouchPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTouchPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C314E7D6252470A500B91399 /* Build configuration list for PBXProject "ZZTouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314E808252470A600B91399 /* Debug */,
+				C314E809252470A600B91399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C314E80A252470A600B91399 /* Build configuration list for PBXNativeTarget "ZZTouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314E80B252470A600B91399 /* Debug */,
+				C314E80C252470A600B91399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C314E80D252470A600B91399 /* Build configuration list for PBXNativeTarget "ZZTouchPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314E80E252470A600B91399 /* Debug */,
+				C314E80F252470A600B91399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C314E810252470A600B91399 /* Build configuration list for PBXNativeTarget "ZZTouchPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314E811252470A600B91399 /* Debug */,
+				C314E812252470A600B91399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C314E7D3252470A500B91399 /* Project object */;
+}
