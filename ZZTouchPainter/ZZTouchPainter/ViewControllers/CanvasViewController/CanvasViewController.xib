@@ -37,13 +37,13 @@
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="lfx-ME-OP0"/>
                         <barButtonItem tag="2" image="open" style="plain" id="PYn-d5-U0M">
                             <connections>
-                                <action selector="requestViewChangeByObject:" destination="JJE-LW-Ss3" id="nTt-qt-qv3"/>
+                                <action selector="requestViewChangeByObject:" destination="2gU-Kc-bfi" id="k0H-KU-dxO"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="Uh1-7W-G0q"/>
                         <barButtonItem tag="1" image="palette" style="plain" id="6xT-CT-i2C">
                             <connections>
-                                <action selector="requestViewChangeByObject:" destination="JJE-LW-Ss3" id="foz-iq-pq8"/>
+                                <action selector="requestViewChangeByObject:" destination="2gU-Kc-bfi" id="LQ7-Dg-noR"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="wp1-9R-jwf"/>
@@ -71,9 +71,7 @@
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="132" y="145"/>
         </view>
-        <placeholder id="JJE-LW-Ss3" customClass="CoordinatingController">
-            <nil key="placeholderIdentifier"/>
-        </placeholder>
+        <customObject id="2gU-Kc-bfi" customClass="CoordinatingController"/>
         <customObject id="WSh-Fz-8jH" customClass="DeleteScribbleCommand"/>
         <customObject id="wH2-pN-khY" customClass="SaveScribbleCommand"/>
     </objects>
